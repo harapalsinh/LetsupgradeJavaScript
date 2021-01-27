@@ -1,0 +1,64 @@
+<html>
+<head><title>DAY 3 Assignment</title></head>
+<body>
+<h1>Question 1</h1>
+<hr>
+<hr>
+Question 1's Answer
+
+<pre>
+
+console.log("Already read '" + library[0].author + "' by " + library[0].title);
+console.log("Already read '" + library[1].author + "' by " + library[1].title);
+console.log("You still need to read '" + library[2].title + "' by " + library[2].author);
+</pre>
+
+<hr>
+Question 2 's Answer
+<pre>
+var age = prompt("Enter Your age");
+
+if(age<18)
+{ 
+	alert("Not legal age to drive");
+}
+else if(age>=18)
+{
+	alert("Drive safe");
+}
+</pre>
+<script>
+var library = [
+{
+author: 'Bill Gates',
+title: 'The Road Ahead',
+readingStatus: true
+},
+{
+author: 'Steve Jobs',
+title: 'Walter Isaacson',
+readingStatus: true
+},
+{
+author: 'Suzanne Collins',
+title: 'Mockingjay: The Final Book of The Hunger Games',
+readingStatus: false
+}];
+
+console.log("Already read '" + library[0].author + "' by " + library[0].title);
+console.log("Already read '" + library[1].author + "' by " + library[1].title);
+console.log("You still need to read '" + library[2].title + "' by " + library[2].author);
+
+var age = prompt("Enter Your age");
+
+if(age<18)
+{ 
+	alert("Not legal age to drive");
+}
+else if(age>=18)
+{
+	alert("Drive safe");
+}
+</script>
+</body>
+</html>
