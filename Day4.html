@@ -1,0 +1,44 @@
+<html>
+<head><title>DAY 4 Assignment</title></head>
+<body>
+<h1>Question 1</h1>
+<hr>
+<hr>
+Question 1's Answer:
+
+<pre>There are 4 ways we can access the elements in DOM
+1: By Class
+
+we can select the elements by class name :<b> document.getElementsByClassName("NAME_OF_CLASS");</b>
+
+2: By ID
+we can select the elements by id : <b>document.getElementById("ID_NAME");</b> 
+
+3. By Name
+we can select the elements by name: <b>document.getElementsByName("NAME");</b>
+
+4. By Tag name
+we can select the elements by Tag name: <b>getElementsByTagName("h1");</b>
+</pre>
+<hr>
+<hr>
+<h1>Questio 2's answer</h1>
+
+First number : <input type="number" id="no1" value>
+Second Number : <input type="number" id="no2">
+<button onclick="sum();">GET SUM</button>
+<h1 >Sum is : <span id="sum"></span> </h1>
+
+<script>
+function sum()
+{
+	var a= parseInt(document.getElementById("no1").value);
+	var b= parseInt(document.getElementById("no2").value);
+	var c= a + b;
+	document.getElementById("sum").innerText = c;
+	}
+</script>
+
+
+</body>
+</html>
